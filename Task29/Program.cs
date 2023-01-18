@@ -36,12 +36,12 @@ void PrintArray2(int[] col)
 {
     int count = col.Length;
     int position = 0;
-    Console.Write("{");
+    Console.Write("[");
     while (position < count-1)
     {
         Console.Write($"{col[position]},");
         position++;
     }
     Console.Write($"{col[count-1]}");
-    Console.Write("}");
+    Console.Write("]");
 }
